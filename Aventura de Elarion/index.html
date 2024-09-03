@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>A Aventura de Elarion</title>
+</head>
+<body>
+    <main>
+    <div class="passo ativo" id="passo-0">
+      <img src="img/cenario-passo0.jpg" alt="reino encantado">
+        <p>Em um reino encantado, um garoto chamado Elarion, cujo espírito era aventureiro, recebe do rei a tarefa de encontrar um artefato mágico do reino que foi perdido há muito tempo: A Coroa de Cristal. Ele recebe como auxílio um velho mapa com uma parte faltando que se acredita levar até localização da Coroa e uma espada forjada do ferro mais rígido que se havia conhecimento. No mapa, lhe são dadas duas possíveis direções. </p>  
+   <button class="btn-proximo" data-proximo="1">Floresta Das Fadas</button>
+   <button class="btn-proximo" data-proximo="2">Os Montes Dos Suspiros</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <img src="img/cenario-passo1.jpg" alt="floresta das fadas">
+      <p>Ao adentrar as imensas extensões da floresta, Elarion é agraciado por cantos angelicais e árvores das quais brotavam flores brilhantes como o Sol. Em sua frente surgem três criaturinhas simpáticas. Eram fadas, e elas ofereceram ajuda para guiar o garoto pela floresta.</p>
+    <button class="btn-proximo" data-proximo="3">Não confiar nas fadas</button>
+    <button class="btn-proximo" data-proximo="4">Confiar nas fadas</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <img src="img/cenario-passo2.jpg" alt="os montes dos Suspiros">
+        <p>Elarion chega nas enormes formações rochosas, e já sente uma mudança de ares. Enquanto escalava os montes, sentia seu corpo pesar mais e mais, tendo a impressão de escutar os ventos suspirando. Certo momento, quando atingiu o topo do montes, se deparou com um caminho bifurcado.</p>
+        <button class="btn-proximo" data-proximo="5">Seguir pelo caminho a esquerda</button>
+        <button class="btn-proximo" data-proximo="6">Seguir pelo caminho a direita</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <img src="img/cenario-passo3.jpg" alt="saída da floresta">
+         <p>Elarion decide não confiar nas criaturas, pois havia escutado certas histórias onde elas confundiam os viajantes que passavam por ali. Dessa forma ele nega a ajuda das mesmas, que se enfurecem e o atacam, mas ele se defende com sua espada. Depois de derrotá-las ele procura sozinho o próprio caminho, eventualmente encontrando a saída daquele lugar.</p>
+         <button class="btn-proximo" data-proximo="7">Seguir o próximo passo do mapa</button>
+        </div>
+    <div class="passo" id="passo-4">
+        <img src="img/cenario-passo1.jpg" alt="voltando para a entrada da floresta">
+        <p>Elarion confia nas fadas, que o enganam e fazem com que ele volte para a entrada floresta. Ele acaba tendo que começar do zero.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir o próximo passo do mapa</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <img src="img/cenario-passo5.jpg" alt="abrigo nos montes">
+         <p>Elarion encontra um velho abrigo escondido dentro dos montes. Lá, existiam inscrições nas paredes de antigos aventureiros que tentaram achar a Coroa De Cristal, mas que falharam. Em frente estava a saída dos montes, e ele seguiu em frente por ela.</p>
+         <button class="btn-proximo" data-proximo="7">Seguir o próximo passo do mapa</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <img src="img/cenario-passo2.jpg" alt="voltando ao inicio dos montes">
+         <p>Elarion se perde, o caminho fez com que ele voltasse do começo. Ele tem que passar por tudo de novo.</p>
+         <button class="btn-proximo" data-proximo="7">Seguir o próximo passo do mapa</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <img src="img/cenario-passo7.jpg" alt="templo sol e Lua">
+        <p>O mapa guia Elarion até o velho Templo Do Sol e Lua, onde um ancião poderoso vivia. Esse ancião possui a parte faltante do mapa, mas só entregará para Elarion caso ele se prove digno ao responder o seguinte enigma: Duas irmãs, igualmente poderosas. Uma constrói muralhas, a outra as atravessa. Uma impõe sua vontade, a outra desvia os obstáculos. Quem são elas?</p>
+        <button class="btn-proximo" data-proximo="8">Responder o enigma</button>
+        <button class="btn-proximo" data-proximo="9">Tentar enganar o ancião e pegar a parte faltante do mapa</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <img src="img/cenario-passo8.jpg" alt="escadaria do templo">
+        <p>Após muito pensar, Elarion responde o enigma: Força e Sabedoria. O ancião então entrega a parte faltante do mapa que leva Elarion exatamente para onde a Coroa está. Dentro de um baú debaixo do próprio templo.</p>
+        <button class="btn-proximo" data-proximo="10">Seguir o caminho do mapa</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <img src="img/cenario-passo9.jpg" alt="final errado">
+        <p>Elarion astutamente tenta se aproximar do ancião, que percebe a tentativa do rapaz e o ataca com um feitiço, o expulsando para sempre do templo. Elarion retorna para o reino de cabeça baixa e fracassado.</p>
+    </div>
+    <div class="passo" id="passo-10">
+        <img src="img/cenario-passo10.jpg" alt="coroa de Cristal">
+        <p>O aventureiro encontra o baú e recupera a Coroa de Cristal, retornando para seu reino triunfante. O rei o recebe com graças e o presenteia com jóias e vida boa. O reino então vive para sempre em alegria, pois o poder da Coroa o protegia.</p>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

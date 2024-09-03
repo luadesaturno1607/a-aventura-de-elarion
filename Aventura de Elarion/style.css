@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(43, 151, 43);
+    color: white;
+    font-family:"DM Serif Text", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button {
+    background-color: rgb(124, 48, 25);
+    color: white;
+    font-family: "Nerko One", cursive;
+}
+
+.passo {
+  display: none;    
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
